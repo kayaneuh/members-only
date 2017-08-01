@@ -10,6 +10,10 @@ end
 gem 'rails', '~> 5.1.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# Use bcrypt pour le password
+gem 'bcrypt',         '3.1.11'
+# Use Bootstrap pour magnifier votre site
+gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
